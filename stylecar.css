@@ -1,0 +1,116 @@
+.navbar-brand{
+    width: 400px;
+    display: block;
+    
+    
+}
+.menu__barr{
+    background-color: #feaaf8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    
+    
+}
+
+.nav__carr{
+    color: #0f0d0d;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    display: block;
+    
+}
+.carrito{
+    width: 60%;
+}
+.container-car{
+    display: flex;
+    margin-top: 20px;
+    /* justify-content: center; */
+}
+.container-car img{
+    width: 180px;
+    height: 190px;
+    border-radius: 30px;
+    background-color:rgb(218, 218, 218);
+
+}
+
+.container-car h5{
+     text-align: unset;
+    font-family: serif;
+    margin: 0%;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-bottom: 10px;
+
+}
+.container-car h6{
+    color: gray;
+    font-family: serif;
+    padding-left: 50px;
+    
+}
+.container-car span{
+    color: #ff4e00;
+    font-weight: bold;
+    margin: 0%;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.product__description{
+    justify-content: right;
+}
+.product{
+    margin: 15px;
+}
+.container-car .span.btn-eliminar{
+    justify-content: right;
+}
+.selector-cantidad{
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 30px;
+}
+.carrito-cantidad{
+    border-color: black;
+    font-size: 18px;
+    background: transparent;
+    display: inline-block;
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+    
+}
+.carrito-total{
+    background-color:rgb(218, 218, 218);
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.carrito-total .fila{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.carrito-total .btn-pagar{
+    display: block;
+    width: 100%;
+    border: none;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+.carrito-total .btn-pagar:hover{
+    scale: 1.05;
+}

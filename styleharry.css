@@ -1,0 +1,157 @@
+/*menu*/
+.navbar-brand{
+    width: 400px;
+    display: block;
+    
+    
+}
+.menu__barr{
+    background-color: #feaaf8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    
+    
+}
+
+.nav__carr{
+    color: #0f0d0d;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    display: block;
+    
+}
+.container_algolia{
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.Page__navigation__example{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #0f0d0d;
+}
+.Page__navigation__example{
+    color: black;
+}
+
+/* PRODUCTOS */
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+
+}
+.product img{
+    width: 220px;
+    height: 280px;
+    border-radius: 30px;
+    background-color:rgb(218, 218, 218)
+    
+}
+.product{
+    margin: 15px;
+}
+.product__title{
+    text-align: unset;
+    font-family: serif;
+    margin: 0%;
+    font-weight: bold;
+}
+.producto__price{
+    color: #ff4e00;
+    font-weight: bold;
+    margin: 0%;
+    text-align: center;
+}
+.product__icon{
+    display: block;
+    margin: 20px 0;
+    margin-top: 10px;
+}
+.product h6{
+    color: gray;
+    font-family: serif;
+}
+.product__description{
+    width: 220px;
+    height: 280px;
+    border-radius: 30px;
+    background-color: aliceblue;
+
+}
+.add-to-cart-global{
+    width: 80%;
+}
+
+.btn-tertiary{
+    color: black;
+    background-color: aliceblue;
+}
+.btn{
+    white-space: nowrap;
+    display: inline-block;
+    /* font-weight: 400; */
+    text-align: justify;
+    vertical-align: auto;
+    user-select: none;
+    border: 2px;
+    line-height: 1.25;
+    border-radius: 24px;
+    
+}
+.bg-success{
+    color: azure;
+}
+.Page__navigation__example{
+    color: black;
+}
+/* HASTA AQUI */
+/*tips barra amarilla*/
+.container-tips{
+    text-align: center;
+    
+    background-color: #fff700;
+}
+.tip i{
+    font-size: 1.5em;
+    padding: 20px 0;
+    
+}
+
+/*barra negra*/
+.container-final{
+    text-align: center;
+    background-color: rgb(16, 15, 15);
+   
+}
+.final__title{
+    color: white;
+    
+}
+.final__txt{
+    color: white;
+}
+.col-sm pi{
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 5px 25px;
+
+}
+.final__txt li{
+    display: block;
+    padding: 5px 25px;  
+    cursor: pointer;
+    color: #fff;
+}
+.final__btn{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    
+    
+}

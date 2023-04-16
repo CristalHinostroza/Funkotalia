@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiCarrito</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="stylecar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid menu__barr">
+          <a class="navbar-brand" href="#"><img src="estasi.jpg" alt="" width="200px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="funko.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorias</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Los Simpsons</a></li>
+                  <li><a class="dropdown-item" href="#">Ánime</a></li>
+                  <li><a class="dropdown-item" href="#">Harry Potter</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Disney/a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link ">Contacto</a>
+              </li>
+            </ul>
+  
+            <form class="d-flex btn_buscar" role="search">
+              <input class="form-control me-2 barra" type="search" placeholder="Buscar productos" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+  
+            <li class="nav-item nav__carr">
+              <a href="" class="nav-link " data-bs-toggle="moda1" data-bs-target="">
+                <i class="fas fa-cart-shopping">Carrito</i>
+              </a>
+            </li>
+          </div>
+        </div>
+      </nav>
+    <section class="carrito">
+        <div class="container-car">
+        
+            <img src="Car/68750_StarWars_R2D2R5D2_POP_GLAM-1-WEB.png" alt="">
+            <div class="producto__description">
+                <h6 class="product_categoria">DISNEY</h6>
+                <h5 class="product__title">R2-D2 & R5-D4</h5>
+                <h5 class="product__title">POP!</h5>
+                <span class="producto__price">$28.990</span>
+            <span class="btn-eliminar">
+                <i class="fa-regular fa-trash-can"></i>
+            </span>
+            <div class="selector-cantidad">
+                <i class="fa-solid fa-minus restar-cantidad"></i>
+                <input type="text" value="1" class="carrito-cantidad" disabled>
+                <i class="fa-solid fa-plus sumar-cantidad"></i>
+            </div>    
+            </div>
+            
+        </div>
+        <div class="container-car">
+            <img src="Car/69107-2_C.png" alt="">
+            <div class="producto__description">
+                <h6 class="product_categoria">ANIME</h6>
+                <h5 class="product__title">ONE PIECE 4-PACK</h5>
+                <h5 class="product__title">POP!</h5>
+                <span class="producto__price">$48.990</span>  
+                <span class="btn-eliminar">
+                    <i class="fa-regular fa-trash-can"></i>
+                </span>
+                <div class="selector-cantidad">
+                    <i class="fa-solid fa-minus restar-cantidad"></i>
+                    <input type="text" value="1" class="carrito-cantidad" disabled>
+                    <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div> 
+
+            </div>
+        </div>
+        <div class="container-car">
+            <img src="Car/67978-1.png" alt="">
+            <div class="producto__description">
+                <h6 class="product_categoria">DISNEY</h6>
+                <h5 class="product__title">RAPUNCEL AND FLYNN</h5>
+                <h5 class="product__title">POP!</h5>
+                <span class="producto__price">$30.000</span>   
+                <span class="btn-eliminar">
+                    <i class="fa-regular fa-trash-can"></i>
+                </span>
+                <div class="selector-cantidad">
+                    <i class="fa-solid fa-minus restar-cantidad"></i>
+                    <input type="text" value="1" class="carrito-cantidad" disabled>
+                    <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+
+            </div>
+        </div>
+        <div class="container-car">
+            <img src="SEC.Harry/HPPP0013-1.png" alt="">
+            <div class="producto__description">
+                <h6 class="product_categoria">HARRY POTTER</h6>
+                <h5 class="product__title">SEVERUS SNAPE</h5>
+                <h5 class="product__title">POP! PINS</h5>
+                <span class="producto__price">$8.990</span>   
+                <span class="btn-eliminar">
+                    <i class="fa-regular fa-trash-can"></i>
+                </span>
+                <div class="selector-cantidad">
+                    <i class="fa-solid fa-minus restar-cantidad"></i>
+                    <input type="text" value="1" class="carrito-cantidad" disabled>
+                    <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+
+            </div>
+        </div>
+        <div class="carrito-total">
+            <div class="fila">
+                <strong>TOTAL</strong>
+                <span class="total-carrito-precio">$116.880</span>
+            </div>
+            <button class="btn-pagar">PAGAR
+                <i class="fa-light fa-bag-shopping"></i>
+            </button>
+            
+        </div>
+    </section>
+</body>
+</html>

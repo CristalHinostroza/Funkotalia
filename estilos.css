@@ -103,6 +103,7 @@ img {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     text-align: center;
     margin-top: 20px;
+
 }
 
 .container-products{
@@ -115,6 +116,7 @@ img {
     
     grid-gap: 20px; */
     font-family: 'Courier New', Courier, monospace;
+    background: url(fondologo5.png) space center;
 }
 
 .product{
@@ -242,9 +244,12 @@ img {
     
 }
 .menu__barr{
-    background-color:#dcd2ff;
+    background: url(fondo5.png) no-repeat center center fixed;
+    background-size: cover;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5em;
+    margin-top: -8px;
+    margin-bottom: -8px;
     
     
 }

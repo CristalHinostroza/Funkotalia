@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Signika Negative", sans-serif;
+}
+body{
+    background: url(fondologo5.png);
+}
+.flex.needs-validation{
+    margin-top: 10px;
+}
+.card-main {
+    width: 100%;
+    
+}
+h1.title-card-main {
+    justify-content: center;
+    width: 100%;
+    border-radius:10px;
+    padding: 0.5rem;
+    background-color: #233142;
+    border-bottom: 1px solid #fff;
+}
+h1 {
+    font-size: 2rem;
+    color: #e3e3e3;
+    text-align: center;
+    
+}
+form .button-validate-rut {
+    border-radius: 1rem 1rem 1rem 1rem;
+    border: 1px solid #233142;
+    border: none;
+    background-color: #455d7a;
+    color: #fff;
+    font-size: 1.0rem;
+    padding: 0.1rem;
+    cursor: pointer;
+    width: 6rem;
+  }
+form .btn-default{
+    text-align: center;
+    margin: 15px;
+    background-color: #455d7a;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    width: 10rem;
+}
+form .checkbox{
+    margin: 15px;
+}

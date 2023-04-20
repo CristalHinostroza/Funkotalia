@@ -1,0 +1,20 @@
+VISTAS: 
+*Funko.html = principal
+*inicio.html = login
+*rut_index.html = registro
+*Sec.Harry.html = Seccion Harry Potter
+*Sec.simpsons.html = Seccion Los Simpsons
+*Carrito.html = Carrito
+
+HOJAS DE ESTILO (CSS)
+
+*funko.html -> estilos.css
+*inicio.html-> estiloinicio.css
+	*rut_index-html->rut_estilo.css
+*Sec.Harry.html->styleharry.css
+*Sec.simpsons.html->stylesimpsons.css
+*Carrito.html->stylecar.css
+
+FUNCIONES JSCRIPT
+*Carrito (eliminar producto, agregar cantidad de producto y total a pagar)
+*rut_index (validacion de rut) --> funciones.js

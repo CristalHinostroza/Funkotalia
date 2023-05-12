@@ -229,13 +229,14 @@ img {
 .final__btn{
     color: #fff;
     text-decoration: none;
-    text-align: center;
-    
-    
+    text-align: center;  
 }
+
+
 /*menu*/
 .navbar{
     margin: 0%;
+    
 }
 .navbar-brand{
     width: 300px;

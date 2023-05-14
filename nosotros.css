@@ -1,0 +1,139 @@
+.navbar{
+    margin: 0%;
+    
+}
+.navbar-brand{
+    width: 300px;
+    display: block;
+    
+    
+}
+.menu__barr{
+    background: url(fondo5.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    
+    
+}
+
+.nav__carr{
+    color: #0f0d0d;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    display: block;
+    
+}
+
+.login__icon{
+    color: #0f0d0d;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    display: block;
+
+}
+/*barra negra*/
+.container-final{
+    text-align: center;
+    
+   background-color: rgb(16, 15, 15);
+   
+}
+.final__title{
+    color: white;
+    
+}
+.final__txt{
+    color: white;
+}
+.col-sm pi{
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 5px 25px;
+
+}
+.final__txt li{
+    display: block;
+    padding: 5px 25px;  
+    cursor: pointer;
+    color: #fff;
+}
+.final__btn{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;  
+}
+
+/*tips barra amarilla*/
+.container-tips{
+    text-align: center;
+    
+    background-color: #fff700;
+}
+.tip i{
+    font-size: 1.5em;
+    padding: 20px 0;
+    
+}
+.body{
+    margin: 0%;
+}
+.envio{
+    text-align: center;
+    color: #ff4e00;
+    background-color: #fff700;
+}
+img {
+    display: block;
+    width: 90%;
+    
+
+}
+
+
+.main-header__btn{
+    padding: 5px 8px;
+    border: 2px solid rgb(83, 79, 79);
+    text-decoration: none;
+    color: rgb(85, 82, 82);
+    border-radius: 20px;
+}
+.main-header__input{
+    display: block;
+    padding: 10px 30px;
+    border: 2px solid ;
+}
+.main{
+    padding: 30px ;
+   
+}
+.elemento{
+    text-align: center;
+    
+    box-sizing: border-box;
+    margin: 55px;
+}
+.container-nosotros{
+    background: url(fondologo5.png) space center;
+    text-align: center;
+    margin: 60px;
+}
+.container-nosotros img{
+    size: 5px;
+}
+#fotito {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+
+}
+#fotito img{
+    height: 500px;
+    width: auto;
+}

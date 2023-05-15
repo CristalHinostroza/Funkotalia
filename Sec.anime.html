@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="styleharry.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="icon" type="image/icon.png" href="icon.png">
+    <script src="funciones.js" asnyc></script>
+  
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid menu__barr">
+          <a class="navbar-brand" href="funko.html"><img src="logo.png" alt="" width="200px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="funko.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorias</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Los Simpsons</a></li>
+                  <li><a class="dropdown-item" href="#">Ánime</a></li>
+                  <li><a class="dropdown-item" href="#">Harry Potter</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Disney/a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#contacto" class="nav-link ">Contacto</a>
+              </li>
+            </ul>
+  
+            <form class="d-flex btn_buscar" role="search">
+              <input class="form-control me-2 barra" type="search" placeholder="Buscar productos" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+  
+            <li class="nav-item nav__carr">
+              <a href="Carrito.html" class="nav-link " data-bs-toggle="moda1" data-bs-target="">
+                <i class="fas fa-cart-shopping">Carrito</i>
+              </a>
+            </li>
+          </div>
+        </div>
+      </nav>
+    <div class="container_algolia">
+        <div>
+          <select name="algolia-order-by">
+            <option disabled>Ordenar por</option>
+            <option value="price_asc">Menor a Mayor Precio</option>
+            <option value="price_desc">Mayor a Menor Precio</option>
+            <option selected value="score">Relevancia</option>
+          </select>
+        </div>
+      </div>
+    <div class="container">
+            <div class="product">
+                <img src="Sec.anime/Inuyasha_Kikyo.png" alt=""class="img-product">
+                <span class="badge bg-secondary position-absolute translate-middle bg-warning" >Nuevo</span>
+
+                <div class="producto__description">
+                  
+                    <h6 class="product_categoria">ÁNIME</h6>
+                    <h5 class="product__title">INUYASHA</h5>
+                    <h5 class="product__title">KIKYO</h5>
+                    <span class="producto__price">$9.990</span>
+                    <BUtton class="fa-sharp fa-solid fa-cart-plus">AGREGAR AL CARRO</BUtton>
+                </div>   
+            </div>
+            <div class="product">
+                <img src="Sec.anime/RIN.png" alt=""class="img-product">
+                <span class="badge bg-secondary position-absolute translate-middle bg-warning" >Nuevo</span>
+                <div class="producto__description">
+                    <h6 class="product_categoria">ÁNIME</h6>
+                    <h5 class="product__title">INUYASHA</h5>
+                    <h5 class="product__title">RIN</h5>
+                    <span class="producto__price">$9.990</span>
+                    <BUtton class="fa-sharp fa-solid fa-cart-plus">AGREGAR AL CARRO</BUtton>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Sec.anime/ONE_PICE.png" alt=""class="img-product">
+                <span class="badge bg-secondary position-absolute translate-middle bg-warning" >Nuevo</span>
+                <div class="producto__description">
+                    <h6 class="product_categoria">ÁNIME</h6>
+                    <h5 class="product__title">ONE PIECE</h5>
+                    <h5 class="product__title">MINI VINYL FIGURES</h5>
+                    <span class="producto__price">$19.990</span>
+                    <BUtton class="fa-sharp fa-solid fa-cart-plus">AGREGAR AL CARRO</BUtton>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Sec.anime/X2.png" alt=""class="img-product">
+                <span class="badge bg-secondary position-absolute translate-middle bg-warning" >Nuevo</span>
+                <div class="producto__description">
+                    <h6 class="product_categoria">ÁNIME</h6>
+                    <h5 class="product__title">DEMON SLAYER</h5>
+                    <h5 class="product__title">KANATA AND KIRIYA 2-PACK</h5>
+                    <span class="producto__price">$28.990</span>
+                    <BUtton class="fa-sharp fa-solid fa-cart-plus">AGREGAR AL CARRO</BUtton>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Sec.anime/BIG_MOM.png" alt=""class="img-product">
+                <div class="producto__description">
+                    <h6 class="product_categoria">ÁNIME</h6>
+                    <h5 class="product__title">ONE PICE</h5>
+                    <h5 class="product__title">BIG MOM WITH HOMIES</h5>
+                    <span class="producto__price">$19.990</span>
+                    <BUtton class="fa-sharp fa-solid fa-cart-plus">AGREGAR AL CARRO</BUtton>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Sec.anime/PUSHEEN.png" alt=""class="img-product">
+                <div class="producto__description">
+                    <h6 class="product_categoria">ÁNIME</h6>
+                    <h5 class="product__title">PUSHEEN</h5>
+                    <h5 class="product__title">SWISS ROLL</h5>
+                    <span class="producto__price">$14.990</span>
+                    <BUtton class="fa-sharp fa-solid fa-cart-plus">AGREGAR AL CARRO</BUtton>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Sec.anime/INOSUKE.png" alt=""class="img-product">
+                <div class="producto__description">
+                    <h6 class="product_categoria">ÁNIME</h6>
+                    <h5 class="product__title">DEMON SLAYER</h5>
+                    <h5 class="product__title">INOSUKE HASHIBIRA</h5>
+                    <span class="producto__price">$13.990</span>
+                    <BUtton class="fa-sharp fa-solid fa-cart-plus">AGREGAR AL CARRO</BUtton>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Sec.anime/KAGAYA.png" alt=""class="img-product">
+                <div class="producto__description">
+                    <h6 class="product_categoria">ÁNIME</h6>
+                    <h5 class="product__title">DEMON SLAYER</h5>
+                    <h5 class="product__title">KAGAYA UBUYASHIKI</h5>
+                    <span class="producto__price">$9.990</span>
+                    <BUtton class="fa-sharp fa-solid fa-cart-plus">AGREGAR AL CARRO</BUtton>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Sec.anime/RUI.png" alt=""class="img-product">
+                <div class="producto__description">
+                    <h6 class="product_categoria">ÁNIME</h6>
+                    <h5 class="product__title">DEMON SLAYER</h5>
+                    <h5 class="product__title">RUI</h5>
+                    <span class="producto__price">$9.990</span>
+                    <BUtton class="fa-sharp fa-solid fa-cart-plus">AGREGAR AL CARRO</BUtton>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Sec.anime/KANAO.png" alt=""class="img-product">
+                <div class="producto__description">
+                    <h6 class="product_categoria">ÁNIME</h6>
+                    <h5 class="product__title">DEMON SLAYER</h5>
+                    <h5 class="product__title">KANAO TSUYURI</h5>
+                    <span class="producto__price">$11.990</span>
+                    <BUtton class="fa-sharp fa-solid fa-cart-plus">AGREGAR AL CARRO</BUtton>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Sec.anime/GOJO.png" alt=""class="img-product">
+                <div class="producto__description">
+                    <h6 class="product_categoria">ÁNIME</h6>
+                    <h5 class="product__title">JUJUTSU KAISEN</h5>
+                    <h5 class="product__title">SATORO GOJO</h5>
+                    <span class="producto__price">$14.990</span>
+                    <BUtton class="fa-sharp fa-solid fa-cart-plus">AGREGAR AL CARRO</BUtton>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Sec.anime/BUDDY.png" alt=""class="img-product">
+                <div class="producto__description">
+                    <h6 class="product_categoria">ÁNIME</h6>
+                    <h5 class="product__title">JUJUTSU KAISEN</h5>
+                    <h5 class="product__title">FISHIGURO WHIT TOADS</h5>
+                    <span class="producto__price">$10.990</span>
+                    <BUtton class="fa-sharp fa-solid fa-cart-plus">AGREGAR AL CARRO</BUtton>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Sec.anime/MASHITO.png" alt=""class="img-product">
+                <div class="producto__description">
+                    <h6 class="product_categoria">ÁNIME</h6>
+                    <h5 class="product__title">JUJUTSU KAISEN</h5>
+                    <h5 class="product__title">MASHITO WITH ARMS</h5>
+                    <span class="producto__price">$14.990</span>
+                    <BUtton class="fa-sharp fa-solid fa-cart-plus">AGREGAR AL CARRO</BUtton>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Sec.anime/MEW.png" alt=""class="img-product">
+                <div class="producto__description">
+                    <h6 class="product_categoria">ÁNIME</h6>
+                    <h5 class="product__title">POKÉMON</h5>
+                    <h5 class="product__title">MEW</h5>
+                    <span class="producto__price">$14.990</span>
+                    <BUtton class="fa-sharp fa-solid fa-cart-plus">AGREGAR AL CARRO</BUtton>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Sec.anime/PSYDUCK.png" alt=""class="img-product">
+                <div class="producto__description">
+                    <h6 class="product_categoria">ÁNIME</h6>
+                    <h5 class="product__title">POKÉMON</h5>
+                    <h5 class="product__title">PSYDUCK</h5>
+                    <span class="producto__price">$14.990</span>
+                    <BUtton class="fa-sharp fa-solid fa-cart-plus">AGREGAR AL CARRO</BUtton>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Sec.anime/LEAFEON.png" alt=""class="img-product">
+                <div class="producto__description">
+                    <h6 class="product_categoria">ÁNIME</h6>
+                    <h5 class="product__title">POKÉMON</h5>
+                    <h5 class="product__title">LEAFEON</h5>
+                    <span class="producto__price">$9.990</span>
+                    <BUtton class="fa-sharp fa-solid fa-cart-plus">AGREGAR AL CARRO</BUtton>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Sec.anime/RAICHU.png" alt=""class="img-product">
+                <div class="producto__description">
+                    <h6 class="product_categoria">ÁNIME</h6>
+                    <h5 class="product__title">POKÉMON</h5>
+                    <h5 class="product__title">RAICHU</h5>
+                    <span class="producto__price">$9.990</span>
+                    <BUtton class="fa-sharp fa-solid fa-cart-plus">AGREGAR AL CARRO</BUtton>
+                </div>
+            </div>
+    </div>
+    <div class="Page__navigation__example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <span class="page-link" style="color: black;">Anterior</span>
+        </li>
+        <li class="page-item active" aria-current="page">
+          <span class="page-link"style="color: black;">1</span>
+        </li>
+        <li class="page-item "><a class="page-link" style="color: black;" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" style="color: black;" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" style="color: black;" href="#">Proxima</a>
+        </li>
+      </ul>
+    </div> 
+      <section class="container-tips ">
+        <div class="row ">
+    
+          <div class="col-sm">
+            <i class="fa-solid fa-truck"></i>
+            <h2 class="tip__title"> DELIVERY</h2>
+            <p class="tip__txt">Envío por pagar</p>
+          </div>
+    
+          <div class="col-sm">
+            <i class="fa-regular fa-credit-card"></i>
+            <h2 class="tip__title">PAGO SEGURO</h2>
+            <p class="tip__txt">Webpay</p>
+          </div>
+    
+          <div class="col-sm">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+            <h2 class="tip__title">GARANTÍA</h2>
+            <p class="tip__txt">Asegurada</p>
+          </div>
+    
+          <div class="col-sm">
+            <i class="fa-solid fa-headphones"></i>
+            <h2 class="tip__title">ATENCIÓN 24/7</h2>
+            <p class="tip__txt">Listos para ti</p>
+          </div>
+    
+        </div>
+      </section>
+      <section class="container-final">
+        <div class="row ">
+    
+          <div class="col-sm">
+            <h2 class="final__title">PÁGINAS</h2>
+    
+            <ul class="final__txt">
+              <li><a href="funko.html" class="final__btn">Inicio</a></li>
+              <li><a href="nosotros.html" class="final__btn">Nosotros</a></li>
+              <li><a href="funko.html" class="final__btn">Tienda</a></li>
+              <li><a href="Carrito.html" class="final__btn">Carrito</a></li>
+              <li><a href="#contacto" class="final__btn">Contacto</a></li>
+            </ul>
+    
+          </div>
+    
+          <div class="col-sm">
+            <a href="contacto" id="contacto"></a>
+            <h2 class="final__title">CONTACTO</h2>
+            <pi class="fa-solid fa-location-dot"></pi>
+            <p class="final__txt">X Region de Los Lagos</p>
+            <pi class="fa-solid fa-clock"></pi>
+            <p class="final__txt">Lun- Sab 10:00 AM- 19:00 PM</p>
+            <pi class="fa-solid fa-phone"></pi>
+            <p class="final__txt">+56 9 8798 0093</p>
+          </div>
+    
+          <div class="col-sm">
+            <h2 class="final__title">SIGUENOS</h2>
+    
+            <ul class="iconos">
+    
+              <li><a href="">
+                  <pi class="fa-brands fa-instagram"></pi>
+                </a></li>
+              <li><a href="">
+                  <pi class="fa-brands fa-facebook"></pi>
+                </a></li>
+              <li><a href="">
+                  <pi class="fa-brands fa-tiktok"></pi>
+                </a></li>
+              <li><a href="">
+                  <pi class="fa-brands fa-youtube"></pi>
+                </a></li>
+            </ul>
+          </div>
+    
+        </div>
+      </section>
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"></script>  
+<script src="slider.js"></script>
+</body>
+</html>

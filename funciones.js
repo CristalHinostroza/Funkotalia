@@ -70,6 +70,16 @@ function sumarCantidad(event){
     selector.getElementsByClassName('carrito-cantidad')[0].value = cantidadActual;
     //actualizamos el total
     actualizarTotalCarrito();
+
+    // que los productos no sean mayor a 4
+    if (cantidadActual<=4){
+      selector.getElementsByClassName('carrito-cantidad')[0].value = cantidadActual;
+      actualizarTotalCarrito();
+    } else{
+      alert('Alcanzaste la cantidad maxima para este producto')
+      cantidadActual--;
+      actualizarTotalCarrito();
+    }
 }
 function restarCantidad(event){
     var buttonClicked = event.target;
@@ -84,6 +94,7 @@ function restarCantidad(event){
     //actualizamos el total
     actualizarTotalCarrito(); 
     }
+    
     
 }   
 /* function agregarAlCarroClicked(event){

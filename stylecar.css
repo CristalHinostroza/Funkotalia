@@ -25,6 +25,14 @@ body{
     display: block;
     
 }
+.login__icon{
+    color: #0f0d0d;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    display: block;
+
+}
 .carrito{
     width: 100%;
 }
@@ -130,4 +138,77 @@ body{
 .carrito-total .btn-pagar:hover{
     scale: 1.05;
 }
+.seccion{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-bottom: 40px;
+   /*  margin-top: 40px; */
+    padding-right: 16px;
+}
+.envio{
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    background-color:rgb(218, 218, 218);
+    padding: 8px;
+    
+}
+.envio h5{
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+}
+.envio h6{
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    color:grey;
+}
 
+.envio img{
+    width: 300px;
+}
+.cupon{
+   /*  width: 400px; */
+    height: 180px;
+    border-radius: 30px;
+    background-color:rgb(218, 218, 218);
+    padding: 8px;
+    margin-top: 60px;
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+}
+.cupon input{
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+.cupon button{
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+.cupon button:hover{
+    scale: 1.05;
+}
+.progress{
+    margin-top: 20px;
+    color: #000;
+}
+.progress-bar{
+  
+    color: #000;
+}
+.envio_gratis{
+    text-align: center;
+}

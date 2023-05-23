@@ -75,6 +75,14 @@ body{
     display: block;
     
 }
+.login__icon{
+    color: #0f0d0d;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    display: block;
+
+}
 /* PRODUCTOS */
 .container{
     width: 100%;
